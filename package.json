@@ -1,0 +1,33 @@
+{
+    "name": "currently-unnamed",
+    "version": "0.1.0",
+    "description": "TODO",
+    "main": "src/index.js",
+    "directories": {
+        "example": "examples",
+        "test": "test"
+    },
+    "scripts": {
+        "build": "webpack --mode production --output ./dist/cu.min.js",
+        "build-dev": "webpack --mode development --output ./dist/cu.js",
+        "dev-server": "http-server -a 0.0.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/runfaj/currently-unnamed.git"
+    },
+    "author": "Stuart Roskelley",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/runfaj/currently-unnamed/issues"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "babel-cli": "~6.26.0",
+        "babel-loader": "^8.0.2",
+        "webpack": "^4.17.2",
+        "webpack-cli": "^3.1.0"
+    },
+    "dependencies": {}
+}
