@@ -1,4 +1,3 @@
-import vNode from './vNode.js';
 import State from './state';
 
 class CU {
@@ -10,4 +9,6 @@ class CU {
     }
 }
 window.CU = CU;
-window.vNode = vNode;
+
+import Component from './component';
+window.Component = Component;
